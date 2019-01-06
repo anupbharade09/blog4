@@ -17,9 +17,9 @@ googleAnalytics = ""
 
   # To provide some metadata for search engines feel free to add a few
   # information about you and your website.
-  name = "Your name"
+  name = "Anup Bharade"
   description = "Your description"
-  # email = "your@email.com"
+  # email = "abharade@uncc.edu"
 
   # Link custom assets relative to /static
   custom_css = []
@@ -49,10 +49,10 @@ googleAnalytics = ""
     brand = "AB"
     # Optional logo as brand stored in img/
     #logo = "logo.svg"
-    services = "Services"
-    portfolio = "Portfolio"
-    about = "About"
-    team = "Team"
+    services = "About me"
+    portfolio = "Projects"
+    about = "Experience"
+    team = "Education"
     contact = "Contact"
 
     # Add custom links. Those can be pre- and postpended to the default menu above.
@@ -67,8 +67,8 @@ googleAnalytics = ""
 
     # postpended links
     [[menu.postpend]]
-      url = "http://gohugo.io"
-      name = "External link"
+      url = "https://drive.google.com/open?id=1AuoSEKZ0pg8Tt6GV4McZSWRYhy29gKrK"
+      name = "My Resume"
       weight = 10
 
 
@@ -79,35 +79,8 @@ googleAnalytics = ""
     title = "ANUP BHARADE"
     subtitle = "It's nice to meet you"
     buttonText = "About me"
-
-
-  # Services section
-  [params.services]
-    enable = true
-    title = "Services"
-    subtitle = "Lorem ipsum dolor sit amet consectetur."
-
-    [[params.services.row]]
-
-    [[params.services.row.list]]
-      icon = "fa-shopping-cart"
-      title = "E-Commerce"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-      url = "#"
-
-    [[params.services.row.list]]
-      icon = "fa-laptop"
-      title = "Responsive Design"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-      url = "#"
-
-    [[params.services.row.list]]
-      icon = "fa-lock"
-      title = "Web"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-      url = "#"
-
-  # Portfolio section
+	
+    # Portfolio section
   [params.portfolio]
     enable = true
     # All projects defined in their own files. You can find example projects
@@ -124,119 +97,117 @@ googleAnalytics = ""
       buttonText = "Close project"
 
 
+  # Services section
+  [params.services]
+    enable = true
+    title = "About Me"
+	font_size = 20
+    subtitle = "Data Enthusiast and Software engineer. I have 5 years of extensive experience in the fields of software development, data warehousing, Web designing with multiple projects in all the fields to boast about. My the fascination in a field of machine learning, data visualization, and algorithm kept on enhancing as I got exposed to exciting opportunities in big data technologies during my 5 years tenure. I wish to work in an area that is a combination of BigData, Information Retrieval, Data Mining , and Software Engineering. I am also open to positions of Backend/Full-stack developer."
+
+    [[params.services.row]]
+
+    [[params.services.row.list]]
+	  center = true
+      icon = "fa-shopping-cart"
+      title = "E-Commerce"
+      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+      url = "#"
+
+    #[[params.services.row.list]]
+    #  icon = "fa-laptop"
+    #  title = "Responsive Design"
+    #  description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+    #  url = "#"
+
+    #[[params.services.row.list]]
+    #  icon = "fa-lock"
+    #  title = "Web"
+    #  description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+    #  url = "#"
+
+
+
+
     # About section
   [params.about]
     enable = true
-    title = "About"
+    title = "Experience"
     subtitle = "Lorem ipsum dolor sit amet consectetur."
-    endpoint = "Be part<br>of our<br>story!"
+    endpoint = "Be part<br>of my<br>story!"
 
     # The events will be listed from the top to the bottom.
     # All images are stored under 'static/img/about'.
     # Replace them with your own.
     [[params.about.events]]
       img = "1.jpg"
-      date = "2009-2011"
-      title = "Our Humble Beginnings"
+      date = "July 2017 - July 2018"
+      title = "Capgemini India<br>Consultant"
       description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
 
     [[params.about.events]]
       img = "2.jpg"
-      date = "March 2011"
-      title = "An Agency is Born"
+      date = "July 2015 - June 2017"
+      title = "Capgemini India<br>Assosicate Consultant"
       description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
 
     [[params.about.events]]
       img = "3.jpg"
-      date = "December 2012"
-      title = "Our Humble Beginnings"
+      date = "August 2014 - July 2015"
+      title = "Capgemini India<br>Senior software engineer"
       description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
 
     [[params.about.events]]
       img = "4.jpg"
-      date = "July 2014"
-      title = "Phase Two Expansion"
+      date = "August 2013 - August 2014"
+      title = "LOOP Mobiles"
       description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
 
-
-  # Team section
+# Team section
   [params.team]
     enable = true
     # Possibility to center items
-    #center = true
-    title = "Our amazing team"
-    subtitle = "Lorem ipsum dolor sit amet consectetur."
-    description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde."
+    center = true
+    title = "Education"
+    #subtitle = "Lorem ipsum dolor sit amet consectetur."
+    description = ""
 
     # All team member's pictures are stored under 'static/img/team'.
     # Replace them with your own too.
     # Suggestion: Image size should be at least 360px*360px or the alignment might be affected.
     [[params.team.members]]
       img = "1.jpg"
-      name = "Kay Garland"
-      position = "Lead Designer"
-      reportsTo = "CTO"
-      livesIn = "[Munich, Germany](#some-maps-url)"
-      scope = [
-        "UX for [member dashboard](#)",
-        "Maintainer for [awesome-project](#)",
-        "Open Source [community management](#)"
-      ]
+      name = "University Of North Carolina at Charlotte"
+      position = "Master Of Science<br>Computer Science<br>Aug 2018-Present"
+      #reportsTo = "CTO"
+      #livesIn = "[Munich, Germany](#some-maps-url)"
+      #scope = [
+      #  "UX for [member dashboard](#)",
+       # "Maintainer for [awesome-project](#)",
+       # "Open Source [community management](#)"
+      #]
       # For bio markdown and even multiline strings are available.
-      bio = """Kay is an awesome Lead Designer with heaps of experience in the field of UX.
-She worked at Pied Piper for years until they went belly up."""
-      social = [
-        ["fa-twitter", "#"],
-        ["fa-facebook", "#"],
-        ["fa-linkedin", "#"]
-      ]
+      #bio = """Kay is an awesome Lead Designer with heaps of experience in the field of UX.
+#She worked at Pied Piper for years until they went belly up."""
+ #     social = [
+  #      ["fa-twitter", "#"],
+   #     ["fa-facebook", "#"],
+    #    ["fa-linkedin", "#"]
+     # ]
 
-    [[params.team.members]]
-      img = "2.jpg"
-      name = "Larry Parker"
-      position = "Lead Marketer"
-      social = [
-        ["fa-twitter", "#"],
-        ["fa-facebook", "#"],
-        ["fa-linkedin", "#"]
-      ]
+    #[[params.team.members]]
+    #  img = "2.jpg"
+    #  name = "Larry Parker"
+    #  position = "Lead Marketer"
+    #  social = [
+    #    ["fa-twitter", "#"],
+     #   ["fa-facebook", "#"],
+      #  ["fa-linkedin", "#"]
+      #]
 
     [[params.team.members]]
       img = "3.jpg"
-      name = "Diana Pertersen"
-      position = "Lead Developer"
-      social = [
-        ["fa-twitter", "#"],
-        ["fa-facebook", "#"],
-        ["fa-linkedin", "#"]
-      ]
-
-  # Client section
-    [params.clients_list]
-      enable = true
-      # Possibility to center items
-      #center = true
-      # Optional client title specifying the involvement
-      #title = "Used and trusted by"
-
-      # All the clients' logos are stored under 'static/img/logos'.
-      # Replace them with your clients's logos.
-      # Suggestion: .svg in the size of 280px*80px looks good
-      [[params.clients]]
-        logo = "envato.jpg"
-        link = "#"
-
-      [[params.clients]]
-        logo = "designmodo.jpg"
-        link = "#"
-
-      [[params.clients]]
-        logo = "themeforest.jpg"
-        link = "#"
-
-      [[params.clients]]
-        logo = "creative-market.jpg"
-        link = "#"
+      name = "University Of Mumbai"
+      position = "Bachelor Of Engineering<br>Computer Engineering<br>June 2009-May 2013"
 
   # Contact section
   [params.contact]
@@ -302,7 +273,7 @@ She worked at Pied Piper for years until they went belly up."""
   # Footer section
   [params.footer]
     enable = true
-    copyright = "Published under the Apache License 2.0."
+    #copyright = "Published under the Apache License 2.0."
 
     [[params.footer.social]]
       icon = "fa-twitter"
@@ -310,13 +281,13 @@ She worked at Pied Piper for years until they went belly up."""
       title = "Twitter"
 
     [[params.footer.social]]
-      icon = "fa-facebook"
-      link = "#"
-      title = "Facebook"
+      icon = "fa-github"
+      link = "https://github.com/anupbharade09"
+      title = "Github"
 
     [[params.footer.social]]
       icon = "fa-linkedin"
-      link = "#"
+      link = "https://www.linkedin.com/in/anup-bharade-609bbb64/"
       title = "LinkedIn"
 
     [[params.footer.quicklinks]]
