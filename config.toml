@@ -17,7 +17,7 @@ googleAnalytics = ""
 
   # To provide some metadata for search engines feel free to add a few
   # information about you and your website.
-  name = "Anup Bharade"
+  name = "Anup Bharade - Portfolio"
   description = "Your description"
   # email = "abharade@uncc.edu"
 
@@ -101,17 +101,18 @@ googleAnalytics = ""
   [params.services]
     enable = true
     title = "About Me"
+	img = "pic.jpg"
 	font_size = 20
     subtitle = "Data Enthusiast and Software engineer. I have 5 years of extensive experience in the fields of software development, data warehousing, Web designing with multiple projects in all the fields to boast about. My the fascination in a field of machine learning, data visualization, and algorithm kept on enhancing as I got exposed to exciting opportunities in big data technologies during my 5 years tenure. I wish to work in an area that is a combination of BigData, Information Retrieval, Data Mining , and Software Engineering. I am also open to positions of Backend/Full-stack developer."
 
     [[params.services.row]]
 
-    [[params.services.row.list]]
-	  center = true
-      icon = "fa-shopping-cart"
-      title = "E-Commerce"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-      url = "#"
+#    [[params.services.row.list]]
+# 	  center = true
+      
+#      title = "E-Commerce"
+#      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+#      url = "#"
 
     #[[params.services.row.list]]
     #  icon = "fa-laptop"
@@ -138,6 +139,12 @@ googleAnalytics = ""
     # The events will be listed from the top to the bottom.
     # All images are stored under 'static/img/about'.
     # Replace them with your own.
+	[[params.about.events]]
+      img = "4.jpg"
+      date = "October 2018 - Present"
+      title = "UNC-Charlotte<br>Research Assistant"
+      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+
     [[params.about.events]]
       img = "1.jpg"
       date = "July 2017 - July 2018"
@@ -161,7 +168,9 @@ googleAnalytics = ""
       date = "August 2013 - August 2014"
       title = "LOOP Mobiles"
       description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-
+	
+	
+	  
 # Team section
   [params.team]
     enable = true
