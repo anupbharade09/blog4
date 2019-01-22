@@ -1,10 +1,9 @@
 modalID: 3
-title: Knowledge discovery in banking data
-subtitle: Lorem ipsum dolor sit amet consectetur.
-date: 2014-07-07
+title: Knowledge discovery in banking and marketing data.
+date: 2018-11-30
 img: treehouse.png
 preview: treehouse-preview.png
-client: Start Bootstrap
-clientLink: "#"
-category: Website Design
-description: Treehouse is a free PSD web template built by [Mathavan Jaya](//www.behance.net/MathavanJaya). This is bright and spacious design perfect for people or startup companies looking to showcase their apps or other projects. <br><br>You can download the PSD template in this portfolio sample item at [FreebiesXpress.com](freebiesxpress.com/gallery/treehouse-free-psd-web-template/).
+client: Details
+clientLink: "https://drive.google.com/open?id=1h-03k_Pco9ZJtzJiLq7gdv3X84JX87yG"
+category: Data Mining
+description: <font size="4"> <p align="left"> LISp-Miner is an academic project for support research and teaching of knowledge discovery in databases.<br> This projects aims to find action rules. </p></font>

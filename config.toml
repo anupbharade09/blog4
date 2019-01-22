@@ -102,8 +102,8 @@ googleAnalytics = ""
     enable = true
     title = "About Me"
 	img = "pic.jpg"
-	font_size = 20
-    subtitle = "Data Enthusiast and Software engineer. I have 5 years of extensive experience in the fields of software development, data warehousing, Web designing with multiple projects in all the fields to boast about. My the fascination in a field of machine learning, data visualization, and algorithm kept on enhancing as I got exposed to exciting opportunities in big data technologies during my 5 years tenure. I wish to work in an area that is a combination of BigData, Information Retrieval, Data Mining , and Software Engineering. I am also open to positions of Backend/Full-stack developer."
+	font_size = 100
+    subtitle = "<font size = '5'>Data Enthusiast and Software engineer. I have 5 years of extensive experience in the fields of software development, data warehousing, Web designing with multiple projects in all the fields to boast about. My the fascination in a field of machine learning, data visualization, and algorithm kept on enhancing as I got exposed to exciting opportunities in big data technologies during my 5 years tenure. I wish to work in an area that is a combination of BigData, Information Retrieval, Data Mining , and Software Engineering. I am also open to positions of Backend/Full-stack developer.</font>"
 
     [[params.services.row]]
 
@@ -133,7 +133,7 @@ googleAnalytics = ""
   [params.about]
     enable = true
     title = "Experience"
-    subtitle = "Lorem ipsum dolor sit amet consectetur."
+    subtitle = "<b>A life is constant journey of growing and refining who we are.</b>"
     endpoint = "Be part<br>of my<br>story!"
 
     # The events will be listed from the top to the bottom.
@@ -143,31 +143,31 @@ googleAnalytics = ""
       img = "4.jpg"
       date = "October 2018 - Present"
       title = "UNC-Charlotte<br>Research Assistant"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+      description = "<div align='left'>• Developed data analysis algorithm for analyzing metabolomics data of ADAP-3D method in Bioinformatic lab using NumPy, Pandas, SciPy and Matplotlib.<br>• Improved peak picking algorithm ADAP-3D in Mass spectrometry program using JAVA and R.<br>• Developed a module to read and modify complex CDF and mzXML extension files with metabolomics data using R and Python.</div>"
 
     [[params.about.events]]
       img = "1.jpg"
       date = "July 2017 - July 2018"
       title = "Capgemini India<br>Consultant"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+      description = "<div align='left'>• Worked on application development to automate process of Marketing promotions and sending campaigns to customers via email and sms services.<br>• Primary member in  migration activities along with end to end testing of performance related to DB migration from Oracle 11g to Oracle 12c.<br>• Automated Real time reporting for number portability using python for parsing json elements which saved operational cost by 60%.<br>• Documented all technical and system specifications documents for all ETL processes and perform unit tests on all processes and prepare required programs and scripts."
 
     [[params.about.events]]
       img = "2.jpg"
       date = "July 2015 - June 2017"
       title = "Capgemini India<br>Assosicate Consultant"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+      description = "<div align='left'>• Application development with all stages of System Development Life Cycle (SDLC): design, analysis, coding, and testing.<br>• Wrote complex SQL queries and expertise in use of analytical functions.<br>• Gathered information and implemented Lean A3 Problem solving and root cause analysis methods for the entire project.<br>• Created test plans by ensuring complete testing and UAT support for maintenance related change requests."
 
     [[params.about.events]]
       img = "3.jpg"
       date = "August 2014 - July 2015"
       title = "Capgemini India<br>Senior software engineer"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+      description = "<div align='left'>• Got exposed to agile development methodology.<br>• Involved in automation of alert system on production server using PERL and shell scripting which saved more than 50% revenue .<br>• Handled critical incidents raised by business users.<br>• Involved in Extraction, Data Cleaning, Data Staging and Loading the Data Warehouse and Data Mart, used by different business owners for decision Support.</div>"
 
     [[params.about.events]]
       img = "4.jpg"
       date = "August 2013 - August 2014"
       title = "LOOP Mobiles"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+      description = "<div align='left'>• Involved in requirement gathering and developing oracle procedures that facilitates in segregation of customers based on their bill cycles.<br>• Developed data extraction scripts from CDR details with Python and shell scripting and use it for reporting.<br>• Got awarded by 'Rising Star' award.</div>"
 	
 	
 	  
