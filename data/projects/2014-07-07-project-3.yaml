@@ -1,9 +1,9 @@
 modalID: 3
 title: Knowledge discovery in banking and marketing data.
 date: 2018-11-30
-img: treehouse.png
+img: treehous.png
 preview: treehouse-preview.png
-client: Details
+client: Click here
 clientLink: "https://drive.google.com/open?id=1h-03k_Pco9ZJtzJiLq7gdv3X84JX87yG"
 category: Data Mining
-description: <font size="4"> <p align="left"> LISp-Miner is an academic project for support research and teaching of knowledge discovery in databases.<br> This projects aims to find action rules. </p></font>
+description: <font size="4"> <p align="left"> LISp-Miner is an academic project for support research and teaching of knowledge discovery in databases.<br> This projects aims to find action rules in banking data. In order to find the action rules antecedent variable and stable variables were chosen. The decision attribute was chosen from the given data with values 'Yes' and 'No' as succedent variable. Rules were chosen with highest confidence were chosen which had the range from 0.8 to 1.00.</p></font>

@@ -91,7 +91,7 @@ googleAnalytics = ""
     subtitle = "Lorem ipsum dolor sit amet consectetur."
 
     [params.portfolio.modal]
-      client = "Client"
+      client = "Details"
       date = "Date"
       category = "Category"
       buttonText = "Close project"
@@ -103,7 +103,7 @@ googleAnalytics = ""
     title = "About Me"
 	img = "pic.jpg"
 	font_size = 100
-    subtitle = "<font size = '5'>Data Enthusiast and Software engineer. I have 5 years of extensive experience in the fields of software development, data warehousing, Web designing with multiple projects in all the fields to boast about. My the fascination in a field of machine learning, data visualization, and algorithm kept on enhancing as I got exposed to exciting opportunities in big data technologies during my 5 years tenure. I wish to work in an area that is a combination of BigData, Information Retrieval, Data Mining , and Software Engineering. I am also open to positions of Backend/Full-stack developer.</font>"
+    subtitle = "<font size = '5'>Data Enthusiast and Software engineer. I have 5 years of extensive experience in the fields of software development, data warehousing, Web designing with multiple projects in all the fields to boast about. My fascination in a field of machine learning, data visualization, and algorithm kept on enhancing as I got exposed to exciting opportunities in big data technologies during my 5 years tenure. I wish to work in an area that is a combination of BigData, Information Retrieval, Data Mining , and Software Engineering. I am also open to positions of Backend/Full-stack developer.</font>"
 
     [[params.services.row]]
 
@@ -132,6 +132,7 @@ googleAnalytics = ""
     # About section
   [params.about]
     enable = true
+	
     title = "Experience"
     subtitle = "<b>A life is constant journey of growing and refining who we are.</b>"
     endpoint = "Be part<br>of my<br>story!"
@@ -219,10 +220,10 @@ googleAnalytics = ""
       position = "Bachelor Of Engineering<br>Computer Engineering<br>June 2009-May 2013"
 
   # Contact section
-  [params.contact]
+  #[params.contact]
     enable = true
-    title = "Contact us"
-    subtitle  = "Lorem ipsum dolor sit amet consectetur."
+    title = "Contact me"
+    subtitle  = "Email : abharade@uncc.edu<br>"
     buttonText = "Send message"
     # netlify = true
 
@@ -244,31 +245,7 @@ googleAnalytics = ""
     # add some custom JS script to finish the implementation.
     # postURL = "https://example.com/mailout/"
 
-    email = "your@email.com"
 
-    # Success and error message overwrite for async contact form
-    #thanks = "Thank you for awesomely contacting us."
-    #error = "Message could not be send. Please contact us at mail@example.com instead."
-
-    [params.contact.captcha]
-      # sitekey = ""
-
-    # 'warning' defines error messages for invalid inputs
-    [params.contact.form.name]
-      text = "Your Name *"
-      warning = "Please enter your name."
-
-    [params.contact.form.email]
-      text = "Your Email *"
-      warning = "Please enter your email address."
-
-    [params.contact.form.phone]
-      text = "Your Phone *"
-      warning = "Please enter your phone number."
-
-    [params.contact.form.message]
-      text = "Your Message *"
-      warning = "Please enter a message."
 
       # Add optional form fields to identify contact forms
       #[[params.contact.form.hidden]]
@@ -299,10 +276,10 @@ googleAnalytics = ""
       link = "https://www.linkedin.com/in/anup-bharade-609bbb64/"
       title = "LinkedIn"
 
-    [[params.footer.quicklinks]]
-      text = "Privacy Policy"
-      link = "#"
+    #[[params.footer.quicklinks]]
+      #text = "Privacy Policy"
+      #link = "#"
 
-    [[params.footer.quicklinks]]
-      text = "Terms of Use"
-      link = "#"
+    #[[params.footer.quicklinks]]
+      #text = "Terms of Use"
+      #link = "#"
