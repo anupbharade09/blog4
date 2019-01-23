@@ -67,7 +67,7 @@ googleAnalytics = ""
 
     # postpended links
     [[menu.postpend]]
-      url = "https://drive.google.com/open?id=1AuoSEKZ0pg8Tt6GV4McZSWRYhy29gKrK"
+      url = "https://drive.google.com/open?id=1gauYHIjzObTPa5tT2rPtqTnwwAf76kq8"
       name = "My Resume"
       weight = 10
 
