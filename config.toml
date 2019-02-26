@@ -87,8 +87,8 @@ googleAnalytics = ""
     # at 'exampleSite/data/projects'. Copy the 'projects' folder into the 'data' directory
     # at the root of this Hugo site.
     # For more informtion take a look at the README.
-    title = "Portfolio"
-    subtitle = "Lorem ipsum dolor sit amet consectetur."
+    title = "Projects"
+    subtitle = ""
 
     [params.portfolio.modal]
       client = "Details"
@@ -144,7 +144,7 @@ googleAnalytics = ""
       img = "4.jpg"
       date = "October 2018 - Present"
       title = "UNC-Charlotte<br>Research Assistant"
-      description = "<div align='left'>• Developed data analysis algorithm for analyzing metabolomics data of ADAP-3D method in Bioinformatic lab using NumPy, Pandas, SciPy and Matplotlib.<br>• Improved peak picking algorithm ADAP-3D in Mass spectrometry program using JAVA and R.<br>• Developed a module to read and modify complex CDF and mzXML extension files with metabolomics data using R and Python.</div>"
+      description = "<div align='left'>• Developed data analysis algorithm for analyzing metabolomics data of ADAP-3D method in Bioinformatic lab using NumPy, Pandas, SciPy and Matplotlib.<br>• Improved peak picking algorithm ADAP-3D in Mass spectrometry program using JAVA and R.<br>• Developed a module to read and modify complex CDF and mzXML extension files with metabolomics data using R and Python.<br>• Working on machine learning regression models, classification to find patterns in collated metabolomics data.<br> • Implemented own java class for creating sparse matrix and performing various matrix operations on Mass Spectrometry dataset.</div>"
 
     [[params.about.events]]
       img = "1.jpg"

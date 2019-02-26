@@ -1,0 +1,10 @@
+modalID: 4
+title: Data Analysis in Metabolomics
+subtitle: <b>Aim - Classify data to find how different proteins may get affected on regular mice and Knocked out mice.</b> 
+date: 2019-02-18
+img: heatmap.png
+preview: heatmap.png
+client: Coming soon
+#clientLink: ""
+category: Data Analysis
+description:  <p align ='left'>In metabolic world most of the times number of features are greater and samples are lesser.In data we are analyzing there are 6 samples and 262 features.We decided to use Principal component analysis(PCA) for this classification because, the main idea of principal component analysis (PCA) is to reduce the dimensionality of a data set consisting of many variables correlated with each other, either heavily or lightly, while retaining the variation present in the dataset, up to the maximum extent.Results from heat map also shows that variables are heavily co-related. The values for each samples had major variation. In order to normalize the data standaridization is done on the data. PCA scores(PC1, PC2) were plotted on a graph shows clear classification of samples from different mice.</p>
