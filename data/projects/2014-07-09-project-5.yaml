@@ -2,8 +2,8 @@ modalID: 4
 title: Data Analysis in Metabolomics
 subtitle: <b>Aim - Classify data to find how different proteins may get affected on regular mice and Knocked out mice.</b> 
 date: 2019-02-18
-img: heatmap.png
-preview: heatmap.png
+img: heatmap1.png
+preview: heatmap1.png
 client: Coming soon
 #clientLink: ""
 category: Data Analysis
