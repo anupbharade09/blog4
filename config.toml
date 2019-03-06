@@ -103,7 +103,7 @@ googleAnalytics = ""
     title = "About Me"
 	img = "pic.jpg"
 	font_size = 100
-    subtitle = "<font size = '5'>Data Enthusiast, Software engineer and Graduate Student at University of North Carolina at Charlotte. I have 5 years of extensive experience in the fields of software development, data warehousing, Web designing with multiple projects in all the fields to boast about. My fascination in a field of machine learning, data visualization, and algorithm kept on enhancing as I got exposed to exciting opportunities in big data technologies during my 5 years tenure. I wish to work in an area that is a combination of BigData, Information Retrieval, Data Mining , and Software Engineering. I am also open to positions of Backend/Full-stack developer.</font>"
+    subtitle = "<font size = '5'>Data Enthusiast, Software engineer and Graduate Student at University of North Carolina at Charlotte. I am a graduate research assistant working under Dr. Xiuxia Du on machine learning projects and contributing to open source bioinformtic world. I have 5 years of extensive experience in the fields of software development, data warehousing, Web designing with multiple projects in all the fields to boast about. I wish to work in an area that is a combination of BigData, Information Retrieval, Data Mining , and Software Engineering. I am also open to positions of Backend/Full-stack developer.</font>"
 
     [[params.services.row]]
 
