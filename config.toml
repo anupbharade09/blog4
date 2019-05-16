@@ -67,7 +67,7 @@ googleAnalytics = ""
 
     # postpended links
     [[menu.postpend]]
-      url = "https://drive.google.com/open?id=1zR_aRlMkvgA5v82L2LRL8ClGPF5ndJo2"
+      url = "https://drive.google.com/open?id=1_RVspsqs9IhUJhPsWomfUfRNcnhw6h1D"
       name = "My Resume"
       weight = 10
 
@@ -101,9 +101,9 @@ googleAnalytics = ""
   [params.services]
     enable = true
     title = "About Me"
-	img = "pic.jpg"
+	img = "pic.png"
 	font_size = 100
-    subtitle = "<font size = '5'>Data Enthusiast, Software engineer and Graduate Student at University of North Carolina at Charlotte. I am a graduate research assistant working under Dr. Xiuxia Du on machine learning projects and contributing to open source bioinformtic world. I have 5 years of extensive experience in the fields of software development, data warehousing, Web designing with multiple projects in all the fields to boast about. I wish to work in an area that is a combination of BigData, Information Retrieval, Data Mining , and Software Engineering. I am also open to positions of Backend/Full-stack developer.</font>"
+    subtitle = "<font size = '5'>Incoming Software engineer intern at <b>Amazon</b>. Data Enthusiast, Software engineer and Graduate Student at University of North Carolina at Charlotte. I am a graduate research assistant working under Dr. Xiuxia Du on machine learning projects and contributing to open source bioinformtic world. I have 5 years of extensive experience in the fields of software development, data warehousing, Web designing with multiple projects in all the fields to boast about. I wish to work in an area that is a combination of BigData, Information Retrieval, Data Mining , and Software Engineering. I am also open to positions of Backend/Full-stack developer.</font>"
 
     [[params.services.row]]
 
@@ -141,8 +141,14 @@ googleAnalytics = ""
     # All images are stored under 'static/img/about'.
     # Replace them with your own.
 	[[params.about.events]]
+      img = "amazon.png"
+      date = "May 2019- PRESENT"
+      title = "Amazon- AWS<br>SDE Intern"
+      description = "<div align='left'>• EC2 Enterprise Management Solutions</div>"
+
+	[[params.about.events]]
       img = "4.jpg"
-      date = "October 2018 - Present"
+      date = "October 2018 - May 2019"
       title = "UNC-Charlotte<br>Research Assistant"
       description = "<div align='left'>• Developed data analysis algorithm for analyzing metabolomics data of ADAP-3D method in Bioinformatic lab using NumPy, Pandas, SciPy and Matplotlib.<br>• Improved peak picking algorithm ADAP-3D in Mass spectrometry program using JAVA and R.<br>• Developed a module to read and modify complex CDF and mzXML extension files with metabolomics data using R and Python.<br>• Working on machine learning regression models, classification to find patterns in collated metabolomics data.<br> • Implemented own java class for creating sparse matrix and performing various matrix operations on Mass Spectrometry dataset.</div>"
 

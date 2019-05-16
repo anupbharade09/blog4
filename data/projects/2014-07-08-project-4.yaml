@@ -1,0 +1,10 @@
+modalID: 5
+title: Automatic Colorization of grayscale images
+subtitle: Machine Learning
+date: 2019-01-10
+img: Hues.png
+preview: ML.png
+#client: Start Bootstrap
+#clientLink: "#"
+category: Machine Learning
+description: In this project, we present an approach that uses deep learning techniques for colorizing grayscale images. We have trained a convolutional neural network model, which is designed for image classification, By doing so, we are able to separate content and style of different images and recombine them into a single image. We then propose a method that can add colors to a grayscale image by combining its content with the style of a color image having semantic similarity with the grayscale one.
